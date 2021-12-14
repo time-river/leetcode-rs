@@ -13,3 +13,4 @@ mod longest_palindromic_substring;
 mod zigzag_conversion;
 mod reverse_integer;
 mod string_to_integer;
+mod palindrome_number;
