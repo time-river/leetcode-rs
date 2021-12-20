@@ -26,3 +26,4 @@ mod remove_nth_node_from_end_of_list;
 mod valid_parentheses;
 mod merge_two_sorted_lists;
 mod generate_parentheses;
+mod remove_duplicates_from_sorted_array;
