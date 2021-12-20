@@ -13,7 +13,6 @@ pub fn reverse(x: i32) -> i32 {
     }
 
     //if ans >= i32::MIN as i64 && ans <= i32::MAX as i64 {
-    println!("ans: {} MIN: {}, MAX: {}", ans, (-1i64 << 31), (1i64 << 31) - 1);
     if ans >= (-1 << 31) && ans <= (1 << 31) - 1 {
         return ans as i32;
     } else {

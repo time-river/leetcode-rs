@@ -117,7 +117,6 @@ impl Solution {
             // `println!("{:?}", next);` will result building error.
        }
 
-        println!("ans: {:?}", dummy);
         return dummy.unwrap().next;
     }
 }
@@ -147,8 +146,6 @@ mod tests {
             tail = &mut tail.as_mut().unwrap().next;
         }
 
-        println!("head {:?}", dummy_head);
-        println!("ans {:?}", dummy_ans);
         assert_eq!(Solution::remove_nth_from_end(dummy_head.unwrap().next, 2),
                     dummy_ans.unwrap().next);
     }

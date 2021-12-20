@@ -45,7 +45,6 @@ impl Solution {
         // `.map(|key, value)|)` likes `for (key, value) in nums.iter().enumerate()`
         // difference: https://www.zhihu.com/question/263645361
         //   use `map()` to generate new vector
-        println!(">> {:?} target: {}", nums, target);
         let bucket: HashMap<i32, usize> = nums.iter().enumerate().map(|(key, value)| {
             return (*value, key);
         }).collect();
@@ -58,7 +57,6 @@ impl Solution {
             }
             match bucket.get(&(target-nums[i])) {
                 Some(&j) => {
-                    println!(">>> {} {}", j, i);
                     if j > i {
                         ans.push(vec![nums[i], nums[j]]);
                     }

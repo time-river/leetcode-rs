@@ -32,7 +32,6 @@ mod tests {
         let s = String::from("PAYPALISHIRING");
         let ans = convert(s, 3);
 
-        println!("{}", ans);
         assert_eq!(ans, "PAHNAPLSIIGYIR");
     }
 }

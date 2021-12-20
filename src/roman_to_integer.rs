@@ -28,7 +28,6 @@ pub fn roman_to_int(s: String) -> i32 {
                     if (length-i) > 1 && key == &slices[i..i+2] {
                         ans += value;
                         i += 2;
-                        println!("ans: {}", ans);
                         break;
                     }
                 }
