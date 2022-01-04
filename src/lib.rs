@@ -31,3 +31,4 @@ mod remove_element;
 mod implement_strstr;
 mod divide_two_integers;
 mod next_permutation;
+mod search_in_rotated_sorted_array;
