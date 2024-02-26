@@ -42,3 +42,4 @@ mod jump_game_ii;
 mod jump_game_iii;
 mod jump_game_iv;
 mod jump_game_v;
+mod binary_search;
