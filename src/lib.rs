@@ -44,3 +44,4 @@ mod jump_game_iv;
 mod jump_game_v;
 mod binary_search;
 mod minimum_size_subarray_sum;
+mod squares_of_a_sorted_array;
