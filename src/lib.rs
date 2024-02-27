@@ -48,3 +48,4 @@ mod squares_of_a_sorted_array;
 mod spiral_matrix_ii;
 mod remove_linked_list_element;
 mod reverse_linked_list;
+mod swap_nodes_in_pairs;
