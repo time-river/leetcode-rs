@@ -46,3 +46,4 @@ mod binary_search;
 mod minimum_size_subarray_sum;
 mod squares_of_a_sorted_array;
 mod spiral_matrix_ii;
+mod remove_linked_list_element;
